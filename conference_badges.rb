@@ -38,9 +38,9 @@ end
 
 def printer(names)
   names.each do |name|
-    p batch_badge_creator(name)
+    p name.batch_badge_creator
   end
   names.each do |name|
-    p assign_rooms(name)
+    p name.assign_rooms(name)
   end
 end
