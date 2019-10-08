@@ -23,7 +23,7 @@ def assign_rooms(names)
   room_assignments = []
   names.each do |name|
     room += 1
-    room_assignments << "Hello, #{name}! You'll be in #{room}!"
+    room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
   end
   room_assignments
 end
