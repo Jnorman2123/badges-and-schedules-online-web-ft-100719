@@ -40,5 +40,5 @@ def printer(names)
   names.collect do |name|
     p batch_badge_creator(name)
     p assign_rooms(name)
-  end 
+  end
 end
