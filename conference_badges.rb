@@ -17,3 +17,12 @@ def batch_badge_creator(names)
     "Hello, my name is #{name}."
   end
 end
+
+def assign_rooms(names)
+  room = 0
+  room_assignments = []
+  names.each do |name|
+    room += 1
+    room_assignments << "Hello, #{name}! You'll be in #{room}!"
+  end
+end
