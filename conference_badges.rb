@@ -13,7 +13,7 @@ end
 # end
 
 def batch_badge_creator(names)
-  names.each do |name|
+  names.collect do |name|
     "Hello, my name is #{name}."
   end
 end
