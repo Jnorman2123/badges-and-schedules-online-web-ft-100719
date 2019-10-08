@@ -18,12 +18,20 @@ def batch_badge_creator(names)
   end
 end
 
+# def assign_rooms(names)
+#   room = 0
+#   room_assignments = []
+#   names.each do |name|
+#     room += 1
+#     room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
+#   end
+#   room_assignments
+# end
+
 def assign_rooms(names)
   room = 0
-  room_assignments = []
-  names.each do |name|
+  names.collect do |name|
     room += 1
-    room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
+    "Hello, #{name}! You'll be assigned to room #{room}!"
   end
-  room_assignments
 end
