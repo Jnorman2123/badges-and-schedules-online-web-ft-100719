@@ -38,6 +38,9 @@ end
 
 def printer(names)
   names.collect do |name|
-    batch_badge_creator(name)
+    p batch_badge_creator(name)
+  end
+  names.collect do |name|
+    p assign_rooms(name)
   end
 end
