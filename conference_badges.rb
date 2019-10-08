@@ -38,5 +38,7 @@ end
 
 def printer(names)
   p split(batch_badge_creator(names))
-  p split(assign_rooms(names))
+  assign_rooms(names).each do |name|
+    p name
+  end
 end
