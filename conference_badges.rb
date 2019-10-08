@@ -37,7 +37,7 @@ def assign_rooms(names)
 end
 
 def printer(names)
-  names.each do |name|
+  names.collect do |name|
     p batch_badge_creator(name)
   end
 end
