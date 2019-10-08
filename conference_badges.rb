@@ -9,7 +9,7 @@ def batch_badge_creator(names)
   names.each do |name|
     name_badges << "Hello, my name is #{name}."
   end
-  names_badges
+  name_badges
 end
 
 # def batch_badge_creator(names)
